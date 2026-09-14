@@ -7,7 +7,7 @@
 ## workflow runtime.
 
 dist-ai-tests:
-  ## tor-ctrl sources helper-scripts (strings.bsh, has.sh, get_colors.sh) by the
+  ## tor-ctrl sources helper-scripts (strings.bsh, has.bsh, get_colors.sh) by the
   ## '${HELPER_SCRIPTS_PATH:-}' path with a relative '# shellcheck source='
   ## directive. Provide helper-scripts as the repo sibling so the
   ## pre-push-static gate's shellcheck FOLLOWS the source instead of emitting
